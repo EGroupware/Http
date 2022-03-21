@@ -1,5 +1,5 @@
 {
-    "name": "horde/http",
+    "name": "egroupware/http",
     "description": "HTTP client library",
     "type": "library",
     "homepage": "https://www.horde.org/libraries/Horde_Http",
@@ -16,27 +16,21 @@
             "role": "lead"
         }
     ],
-    "version": "2.1.8",
+    "version": "2.2.0",
     "time": "2017-11-11",
-    "repositories": [
-        {
-            "type": "pear",
-            "url": "https://pear.horde.org"
-        }
-    ],
     "require": {
-        "php": "^5.3 || ^7",
-        "pear-pear.horde.org/Horde_Exception": "^2",
-        "pear-pear.horde.org/Horde_Support": "^2"
+        "php": "^7 || ^8",
+        "pear-pear.horde.org/horde_exception": "^2",
+        "pear-pear.horde.org/horde_support": "^2"
     },
     "suggest": {
-        "pear-pear.horde.org/Horde_Test": "^2.1",
+        "pear-pear.horde.org/horde_test": "^2.1",
         "pear-pecl.php.net/pecl_http": "^1.7 || ^2 || ^3",
         "ext-curl": "*"
     },
     "replace": {
-        "pear-pear.horde.org/Horde_Http": "2.*",
-        "pear-horde/Horde_Http": "2.*"
+        "pear-pear.horde.org/horde_http": "2.*",
+        "pear-horde/horde_http": "2.*"
     },
     "autoload": {
         "psr-0": {
